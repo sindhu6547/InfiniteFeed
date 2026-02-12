@@ -1,0 +1,57 @@
+# -----------------------------
+# Dependencies
+# -----------------------------
+node_modules/
+
+# -----------------------------
+# Build output
+# -----------------------------
+dist/
+dist-ssr/
+.vite/
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env
+.env.*
+*.local
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Editor settings
+# -----------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -----------------------------
+# ❌ Accidentally generated files (ignore them)
+# -----------------------------
+node
+npm
+npx
+cd
+create-vite
+react-infinite-feed@0.0.0
